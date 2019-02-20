@@ -1,0 +1,528 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css'); 
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"; 
+body{
+    font-family: Lato;
+}
+
+
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1580px;
+  }
+}
+
+.logo img{
+    max-width: 235px; 
+	max-height: 35px;
+}
+.top-header{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    padding-top: 60px; 
+}
+.top-banner{
+    background-image: url('../images/banner3.jpg');
+    padding-top: 100px;
+    background-size: auto auto ;
+    width: 100%;
+    float: left;
+    min-height: 809px;
+    background-position: right top;
+}
+.top-banner .jumbotron{
+    background-color: transparent;
+    padding-left: 12px;
+    padding-left: 15px;
+    padding-top: 200px;
+}
+.top-banner .jumbotron h1{
+    font-family: Lato;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4a90e2;
+  margin-bottom: 28px;
+}
+.top-banner .jumbotron p{
+    font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #545454;
+  margin-bottom: 54px;
+  max-width: 360px ;
+}
+body .btn-primary {
+  border-radius: 22.5px;
+  background-color: #4a90e2;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px 20px;
+  
+}
+
+.top-banner .jumbotron .btn-primary{
+    padding: 12px 28px;
+}
+.header {
+    float: left;
+    width: 100%;
+    padding-bottom: 35px;
+}
+section {
+    float: left;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+section h1 {
+     
+    font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a90e2;
+  margin-bottom: 84px;
+}
+
+section h2 {
+   
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+#wiser h2 {
+    margin-bottom: 25px;
+}
+#wiser p {
+ 
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #545454;
+}
+
+#wiser .row{
+    margin-bottom: 117px;
+}
+
+#getintouch { 
+  background-color: #f9faff;
+  padding-top: 78px;
+}
+#getintouch h1{
+    margin-top: 80px; 
+    margin-bottom: 40px;
+}
+#getintouch h2{
+    text-align: center;
+    font-weight: 900;
+} 
+
+#getintouch .icons{
+    margin-bottom: 33px;
+}
+
+#getintouch .icons img{
+    max-width: 80px;
+}
+
+#getintouch .details{
+    max-width: 313px;
+    font-size: 18px;
+    color: #545454;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #bb8b88 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #bb8b88 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #bb8b88 !important;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #bb8b88 !important;
+  opacity: 1;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #bb8b88 !important;
+  transition: opacity 250ms ease-in-out;
+}
+:focus::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #bb8b88 !important;
+  transition: opacity 250ms ease-in-out;
+}
+:focus:-ms-input-placeholder {
+  opacity: 0.5;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #bb8b88 !important;
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+:focus::-moz-placeholder {
+  opacity: 0.5 !important;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #bb8b88 !important;
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+:focus:-moz-placeholder {
+  opacity: 0.5;
+}
+ 
+    
+ 
+#getintouch #email {
+  width: calc(100% - 160px);
+  height: 66px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: solid 1px #dfdfdf;
+  color: #545454 ; 
+  font-size: 18px;
+}
+#getintouch button.btn-primary {
+  width: 150px;
+  height: 56px;
+  border-radius: 28px;
+  background-color: #4a90e2;
+}
+.contactform p{
+    margin-bottom: 36px;
+	font-size: 18px;
+	color: #545454;
+}
+
+#getintouch .justify-content-center{
+    margin-bottom: 108px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    padding-top: 43px;
+    background-color: #7997bb;
+    color: #FFF;
+}
+footer a{
+    color: #FFF;
+}
+footer a:hover{
+    color: #FFF;
+}
+
+footer h2 {
+    font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+footer .content{
+    font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  max-width: 250px;
+}
+
+footer .footer-icons {
+    font-size: 23px;
+}
+
+.copyright{
+    font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 20px 0px;
+  opacity: 0.7;
+}
+#wiser img{
+    max-width: 100%;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0 rgba(0,123,255,0);
+}
+
+
+
+/* 1440 screen */
+
+@media  screen and (max-width : 1440px)  { 
+    .top-banner{
+        min-height: 500px;
+        background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    }
+	.top-banner .jumbotron{
+    	padding-top: 150px;
+		padding-bottom: 150px;
+	}
+}
+
+
+/* 1280 screen */
+
+@media screen and  (max-width : 1280px)  { 
+    .top-banner{
+        min-height: 300px;
+        background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    }
+	
+}
+
+
+
+/* iPad in portrait & landscape */
+@media  screen and  (min-width : 768px) 
+and (max-width : 1024px)  {  
+    .top-header {
+        position: relative;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .top-banner{
+        min-height: 300px;
+        background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    }
+    .top-banner .jumbotron{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #wiser .row {
+        margin-bottom: 60px;
+    } 
+    .block-item {
+        text-align: center;
+        margin-top: 33px;
+    }
+    #wiser .block-item h2{
+         text-align: center;
+         /*font-size: 13px;
+         margin-bottom: 13px;*/
+     } 
+     #wiser .block-item p{
+         text-align: center;
+         /*font-size: 13px;*/
+     }
+}
+
+ 
+
+/* Mobile Device */
+@media screen and (max-width: 767px) {
+    body .btn-primary {
+        font-size: 10.1px;
+        font-weight: bold !important;
+        padding: 9px 13px;
+        border-radius: 25px;
+    }
+    .navbar{
+        padding: 0px;
+    }
+     #getintouch button.btn-primary{
+             margin: 0 auto;
+     }
+     footer h2{
+         margin-top: 20px;
+     }
+     .icon-item{
+         margin-bottom: 20px;
+     }
+     .block-item{
+        text-align: center;
+        margin-top: 33px;
+     }
+     #wiser .block-item h2{
+         text-align: center;
+         font-size: 13px;
+         margin-bottom: 13px;
+     } 
+     #wiser .block-item p{
+         text-align: center;
+         font-size: 13px;
+     }
+     .block-item.pr-5, .block-item.px-5 {
+         padding-right: 25px !important;
+        padding-left: 25px !important;
+     }
+     section h1{
+        font-size: 20px;
+        margin-bottom: 30px;
+     }
+     .header {
+        padding-bottom: 12px;
+    }
+    section {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    #wiser .row {
+        margin-bottom: 30px;
+    }
+    #getintouch {
+      
+        padding-top: 30px;
+    }
+    #getintouch button.btn-primary {
+        margin: 20px auto;
+        width: 121px;
+        height: 43px;
+        font-size: 14px;
+    }
+    #getintouch .justify-content-center {
+        margin-bottom: 0;
+    }
+    .top-header {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .logo img {
+         
+        max-height: 20px
+    }
+    .top-banner {
+        padding-top: 0;
+        min-height: 219px;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: 50%; 
+    }
+
+    .top-banner .jumbotron {
+        padding-top: 35px;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+    }
+
+    .top-banner .jumbotron h1 {
+        font-size: 20px;
+            margin-bottom: 8px;
+    margin-top: 6px;
+    }
+
+    .top-banner .jumbotron p {
+        font-size: 13px;
+        margin-bottom: 10px;
+            max-width: 50%;
+    }
+
+    .top-banner .jumbotron .btn-primary {
+        padding: 13px 18px;
+        font-size: 14px;
+		border-radius:25px;
+    }
+    #getintouch #email{
+        width: 100%;
+    }
+    footer{
+        padding-top: 15px;
+		padding-bottom: 15px;
+    }
+    #getintouch h1{
+            margin-top: 60px;
+			margin-bottom: 12px;
+    }
+    #getintouch #email{
+        border-radius: 6px !important;
+        font-size: 14px;
+        max-width: 250px;
+        margin: 0 auto !important;
+		height: 43px !important;
+    }
+    #getintouch button.btn-primary{
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    #getintouch .icons img {
+        max-width: 58px;
+    }
+    #getintouch h2 {
+        font-size: 13px;
+        font-weight: 900;
+    }
+    #getintouch .details p, .contactform p{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 482px) and (max-width: 767px)  {
+    #getintouch #email{
+        width: calc(100% - 125px);
+        max-width: 100% !important;
+    }
+    .contactform p{
+            margin-bottom: 5px;
+    }
+}
+/* Mobile Device small screen */
+@media screen and (max-width: 414px) {
+    .top-banner {
+        background-size: auto 100%;
+    }
+	
+	.form-inline{
+		display: block !important;	
+	}
+} 
