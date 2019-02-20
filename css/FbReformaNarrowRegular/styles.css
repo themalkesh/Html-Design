@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'FbReformaNarrowRegular';
+  src: url('FbReformaNarrowRegular.eot?#iefix') format('embedded-opentype'),  url('FbReformaNarrowRegular.otf')  format('opentype'),
+	     url('FbReformaNarrowRegular.woff') format('woff'), url('FbReformaNarrowRegular.ttf')  format('truetype'), url('FbReformaNarrowRegular.svg#FbReformaNarrowRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
